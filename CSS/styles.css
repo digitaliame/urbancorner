@@ -1,0 +1,23 @@
+body{
+	background: url('http://theurbancorner.mx/images/brickbackground.jpg');
+}
+.logo{
+	width: 100%;
+}
+nav ul li{
+	padding: 18px !important;
+}
+.logoa{
+	width: 210px;
+	height: 100px;
+}
+.navbar-fixed nav{
+	background: rgba(0, 0, 0, 0.4);
+	height: 100px !important;
+}
+.ulleft{
+	margin-left: 15%;
+}
+.ulright{
+	margin-right: 15%;
+}
