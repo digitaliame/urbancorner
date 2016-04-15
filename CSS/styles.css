@@ -4,6 +4,24 @@ body{
 .logo{
 	width: 100%;
 }
+<<<<<<< HEAD
+=======
+#img-footer{
+	width: 160px;
+    margin-left: 70%;
+    margin-top: -25%;
+}
+footer.page-footer{
+	background-color: #444 !important;
+}
+.btn{
+	background-color: #FBF420 !important;
+	color: black !important;
+}
+.slider{
+	margin-top: 36px;
+}
+>>>>>>> master
 nav ul li{
 	padding: 18px !important;
 }
