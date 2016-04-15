@@ -3,3 +3,4 @@ $('.slider').slider({
 	full_width: true,
 	indicators:false,
 });
+$('.modal-trigger').leanModal();
