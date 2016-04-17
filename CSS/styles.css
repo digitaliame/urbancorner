@@ -4,10 +4,22 @@ body{
 .logo{
 	width: 100%;
 }
+#sucursales{
+	background-color: yellow;
+	height: 500px;
+}
 #img-footer{
 	width: 160px;
     margin-left: 70%;
     margin-top: -25%;
+}
+.cont-tittlesuc{
+	background: black;
+	padding: 1%;
+}
+.tittle-sucursales{
+	background: black;
+	border: 1px solid white;
 }
 footer.page-footer{
 	background-color: #444 !important;
@@ -36,3 +48,12 @@ nav ul li{
 .ulright{
 	margin-right: 15%;
 }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
