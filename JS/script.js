@@ -4,3 +4,4 @@ $('.slider').slider({
 	indicators:false,
 });
 $('.modal-trigger').leanModal();
+$('.scrollspy').scrollSpy();

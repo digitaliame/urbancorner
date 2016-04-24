@@ -4,9 +4,63 @@ body{
 .logo{
 	width: 100%;
 }
+.img-1{
+	width: 15%;
+	margin-left: 42%
+}
+.img-2{
+	width: 50%;
+	margin-left: 25%;
+}
+#menu{
+	margin-top: 30px;
+	height: 600px;
+	background: yellow;
+	margin-bottom: 30px;
+}
+.blog div p{
+	background: white;
+	text-align: center;
+}
+.menu-cont{
+	background: rgba(0, 0, 0, 0.7);
+	width: 60%;
+    margin-left: 20%;
+    height: 65px;
+}
+.menu-cont div a{
+	float: left;
+	color: white;
+	font-size: 15px;
+	margin: 2.5%;
+}
+.img-blog{
+	width: 60%;
+}
+.logo-container{
+	border-bottom: 8px solid yellow;
+}
+.mini-imgblog{
+	width: 100%;
+	max-height: 153px;
+}
 #sucursales{
 	background-color: yellow;
 	height: 500px;
+}
+.img-suc{
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+.img-menu{
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+.img-menu2 img{
+	width: 100%;
+}
+.cont-menu{
+	margin-top: 20px !important;
 }
 #img-footer{
 	width: 160px;
@@ -16,6 +70,11 @@ body{
 .cont-tittlesuc{
 	background: black;
 	padding: 1%;
+	width: 30% !important;
+}
+.cont-tittlesuc .tittle-sucursales img{
+	width: 80%;
+	margin: 1% 9% -3%;
 }
 .tittle-sucursales{
 	background: black;
@@ -31,6 +90,7 @@ footer.page-footer{
 .slider{
 	margin-top: 36px;
 }
+
 nav ul li{
 	padding: 18px !important;
 }
@@ -39,7 +99,7 @@ nav ul li{
 	height: 100px;
 }
 .navbar-fixed nav{
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.7);
 	height: 100px !important;
 }
 .ulleft{
@@ -48,12 +108,11 @@ nav ul li{
 .ulright{
 	margin-right: 15%;
 }
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}

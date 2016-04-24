@@ -5,7 +5,6 @@
 	<title>Inicio</title>
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="CSS/styles.css">
-	<link rel="stylesheet" href="CSS/materialize.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 
 </head>
@@ -16,21 +15,21 @@
 		    <div class="nav-wrapper">
 
 			    <ul id="nav-mobile" class="left hide-on-med-and-down ulleft">
-			        <li><a href="sass.html">Menú</a></li>
-			        <li><a href="collapsible.html">Promociones</a></li>
+			        <li><a href="#menu">Menú</a></li>
+			        <li><a href="#promos">Promociones</a></li>
 			    </ul>
 
 		      <a href="#!" class="logoa brand-logo center"><img class="logo center" src="http://theurbancorner.mx/images/logoretina4_2x.png" alt=""></a>
 		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		      <ul class="right hide-on-med-and-down ulright">
-		        <li><a href="collapsible.html">Blog</a></li>
-		        <li><a href="mobile.html">Sucursales</a></li>
+		        <li><a href="#blog-section">Blog</a></li>
+		        <li><a href="#sucursales">Sucursales</a></li>
 		      </ul>
 		      <ul class="side-nav" id="mobile-demo">
-		        <li><a href="sass.html">Sass</a></li>
-		        <li><a href="badges.html">Components</a></li>
-		        <li><a href="collapsible.html">Javascript</a></li>
-		        <li><a href="mobile.html">Mobile</a></li>
+		        <li><a href="#menu">Menu</a></li>
+		        <li><a href="#promos">Promociones</a></li>
+		        <li><a href="#blog-section">Blog</a></li>
+		        <li><a href="#sucursales">Sucursales</a></li>
 		      </ul>
 		    </div>
 	  	</nav>
@@ -77,11 +76,40 @@
 
 	<!-- Inicio menú -->
 
-	<div>
-		<div></div>
-		<div>
-			<div></div>
-			<div></div>
+	<div id="menu" class="scrollspy" >
+		<div class="cont-tittlesuc img-menu">
+			<div class="tittle-sucursales">
+				<img src="http://theurbancorner.mx/images/u2259-4_2x.png" alt="">
+			</div>
+		</div>
+		<div class="menu-cont">
+			<div><a href="">DELI</a></div>
+			<div><a href="">JUICE BAR</a></div>
+			<div><a href="">ENSALADAS</a></div>
+			<div><a href="">CREPAS</a></div>
+			<div><a href="">SMOOTHIES</a></div>
+			<div><a href="">TE</a></div>
+			<div><a href="">CAFE</a></div>
+			<div><a href="">FRAPPE</a></div>
+		</div>
+		<div class="cont-menu container">
+			<div class="row">
+				<div class="col s6">
+					<ul>
+						<li>ksjdhkf</li>
+						<li>dsfs</li>
+						<li>dsfs</li>
+						<li>sdfsd</li>
+						<li>sdfs</li>
+						<li>dfsd</li>
+						<li>fsdf</li>
+						<li>sfsdf</li>
+					</ul>
+				</div>
+				<div class="col s6 img-menu2">
+					<img src="urban/1065.jpg" alt="">
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -90,21 +118,68 @@
 
 	<!-- Inicio Blog -->
 
-	<div>
-		<img src="" alt="">
-		<img src="" alt="">
-
+	<div id="blog-section" class="blog scrollspy">
+		<div class="logo-container container">
+			<img src="http://theurbancorner.mx/images/u2362-4_2x.png" alt="" class="img-1"> <br>
+			<img src="http://theurbancorner.mx/images/u2363-4_2x.png" alt="" class="img-2">
+		</div>
 		<div class="container">
 			<div class="row">
-				
+				<img src="urban/1037.jpg" alt="" class="col s6 img-blog">
+				<div>
+					<p>
+					15 cosas que debes hacer <br>
+					a la hora de la comida
+					 </p>
+					<p>
+						¿Eres de los que hace keyboard bistro o <br>
+						estan en el restaurante con el celular en la <br> 
+						mano, revisando correos electronicos? <br> 
+						Esos 60 minutos son dorados <br> 
+						aprovechalos al maximo te decimos como 
+					</p>
+				</div>
 			</div>		
 		</div>
 
 		<div class="container">
 			<div class="row">
-				<img src="" alt="">
-				<img src="" alt="">
-				<img src="" alt="">
+
+				<div class="col s4">
+					<img src="urban/1038.jpg" alt="" class="mini-imgblog">
+					<p>
+						5 hamburguesasa famosas de la television
+					</p>
+					<p>
+						Amor a primera vista las vimos en la  
+						pantalla e inmediatamente nos dieron 
+						ganas de darles una mordida
+					</p>
+				</div>
+
+				<div class="col s4">
+					<img src="urban/1041.jpg" alt="" class="mini-imgblog">
+					<p>					
+						Guia para amantes del cafe <br>
+						(infografia)		
+					</p>
+					<p>
+						6 formas de preparar el cafe explicadas 
+						con dibujitos
+					</p>
+				</div>
+
+				<div class="col s4">
+					<img src="urban/1040.jpg" alt="" class="mini-imgblog">
+					<p>
+						Guia para amantes del cafe <br>
+						(infografia)
+					</p>
+					<p>
+						una recomendacion para disfrutar de lo 
+						saludabre y delicioso de la mañana
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -114,10 +189,10 @@
 
 	<!-- seccion sucursales -->
 
-	  <div id="sucursales">
+	  <div id="sucursales" class="scrollspy">
 
 	  	<div class="sucursal-cont container">
-	  		<div class="cont-tittlesuc">
+	  		<div class="cont-tittlesuc img-suc">
 
 				<div class="tittle-sucursales">
 					<img src="http://theurbancorner.mx/images/u3366-4_2x.png" class="center" alt="">
@@ -149,15 +224,16 @@
 
 	<!-- Inicio footer -->
 
-	  <footer class="page-footer">
+	  <footer id="promos" class="page-footer scrollspy">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
+
                 <h5 class="white-text">Suscribete a nuestro newsletter y <br> recibe un cafe americano en tu <br>
                 	siguiente compra.</h5>
                  <a class="waves-effect waves-light btn modal-trigger btn-suscribir" href="#modal1">Suscribirse</a>   
 			  </div>
               <img id="img-footer" src="http://theurbancorner.mx/images/cafe.png" alt="">
+
             </div>
           </div>
           <div class="footer-copyright">
@@ -200,6 +276,7 @@
 		<!-- fin footer -->
 
 	</main>
+
 
 
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
