@@ -14,9 +14,12 @@ body{
 }
 #menu{
 	margin-top: 30px;
-	height: 600px;
+	height: auto;
 	background: yellow;
 	margin-bottom: 30px;
+}
+.activated{
+	margin-left: 25% !important;
 }
 .blog div p{
 	background: white;
@@ -24,15 +27,20 @@ body{
 }
 .menu-cont{
 	background: rgba(0, 0, 0, 0.7);
-	width: 60%;
-    margin-left: 20%;
+	width: 100%;
     height: 65px;
+}
+.deactivated{
+	margin-left: -135% !important;
 }
 .menu-cont div a{
 	float: left;
 	color: white;
 	font-size: 15px;
-	margin: 2.5%;
+	margin: 3%;
+}
+.menu-cont div a:hover{
+	color: yellow;
 }
 .img-blog{
 	width: 60%;
@@ -46,7 +54,7 @@ body{
 }
 #sucursales{
 	background-color: yellow;
-	height: 500px;
+	height: auto;
 }
 .img-suc{
 	margin-bottom: 2%;
