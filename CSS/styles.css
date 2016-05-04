@@ -19,6 +19,9 @@ body{
 	background-size: cover;
 	margin-bottom: 30px;
 }
+.row .col.s5{
+	margin-right: 5%;
+}
 .activated{
 	margin-left: 25% !important;
 }
