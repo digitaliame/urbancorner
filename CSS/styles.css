@@ -4,6 +4,12 @@ body{
 .logo{
 	width: 100%;
 }
+#smt-menu{
+	list-style: none;
+}
+nav ul li:hover{
+	background-color: black;
+}
 .img-1{
 	width: 15%;
 	margin-left: 42%
