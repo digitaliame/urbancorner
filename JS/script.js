@@ -6,6 +6,9 @@ $(document).ready(function(){
 	});
 	$('.modal-trigger').leanModal();
 	$('.scrollspy').scrollSpy();
+	setTimeout(function() {
+        $("#modal1").show();
+    },3000);
 
 	$('#juice').on('click',(function (){
 		$('#deli-card').removeClass('activated');
