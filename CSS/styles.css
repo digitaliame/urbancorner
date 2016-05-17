@@ -117,7 +117,7 @@ footer.page-footer{
 }
 
 nav ul li{
-	padding: 18px !important;
+	padding: 12px ;
 }
 .logoa{
 	width: 210px;
@@ -140,4 +140,7 @@ body {
 }
 main {
   flex: 1 0 auto;
+}
+.icons{
+	padding: 0 20px 0 20px;
 }
