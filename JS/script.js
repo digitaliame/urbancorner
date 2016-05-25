@@ -1,14 +1,22 @@
+
+
 $(document).ready(function(){
+	$('#popup').hide();
+	var tiempo = setTimeout(function(){
+		$('#popup').fadeIn();
+	}, 10000);
+
+	$('#popupclose').on('click',(function (){
+		$('#popup').fadeOut();
+	}));
+
 	$(".button-collapse").sideNav();
 	$('.slider').slider({
 		full_width: true,
 		indicators:false,
 	});
 	$('.modal-trigger').leanModal();
-	$('.scrollspy').scrollSpy();
-	setTimeout(function() {
-        $("#modal1").show();
-    },3000);
+	
 
 	$('#juice').on('click',(function (){
 		$('#deli-card').removeClass('activated');

@@ -4,6 +4,34 @@ body{
 .logo{
 	width: 100%;
 }
+.pop-field-cont{
+	margin: 5%;
+}
+.close:hover{
+	cursor: pointer;
+}
+.btn-popup{
+	margin-left: 60vh;
+	margin-bottom: 2%;
+}
+.close{
+	margin: 1%;
+}
+.popup-cont{
+	width: 100%;
+	z-index: 9999;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	height: 427vh;
+	top: 0;
+}
+.popup-box{
+	background:white;
+	width: 50%;
+	position: fixed;
+	top:40%;
+	left:25%;
+}
 #smt-menu{
 	list-style: none;
 }
