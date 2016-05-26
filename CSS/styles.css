@@ -4,6 +4,9 @@ body{
 .logo{
 	width: 100%;
 }
+.side-nav{
+	transform: translateX(0px) !important;
+}
 .pop-field-cont{
 	margin: 5%;
 }
@@ -21,7 +24,7 @@ body{
 	z-index: 9999;
 	background: rgba(0, 0, 0, 0.7);
 	position: absolute;
-	height: 427vh;
+	height: 3200px;
 	top: 0;
 }
 .popup-box{
@@ -159,14 +162,6 @@ nav ul li{
 }
 .ulright{
 	margin-right: 15%;
-}
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-main {
-  flex: 1 0 auto;
 }
 .icons{
 	padding: 0 20px 0 20px;
